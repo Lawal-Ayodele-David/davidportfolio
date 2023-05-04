@@ -27,7 +27,7 @@ const LeftBanner = () => {
                 cursorColor="#ff014f" />
             </h2>
             <p className="text-base font-bodyFont xl:flex-row leading-6 gap-6 xl:gap-0 tracking-wide">
-                I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interation. I'm not adding motion just to spruce things up, but doing it in ways that.
+                I studied Computer Engineering Technology, and specify on the Software Engineering field. I aim to contribute positively to the attainment of the best result in an organization that is innovative and responsible to the dynamic world of Information, Engineering and Technology, thereby adding value to my employer and deriving job satisfaction.
             </p>
         </div>
         <div className='flex flex-col lgl:flex-row justify-between'>
