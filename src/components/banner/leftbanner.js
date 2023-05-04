@@ -13,7 +13,7 @@ const LeftBanner = () => {
         delaySpeed: 2000,
     });
     return (
-        <div className='w-1/2 flex flex-col gap-20'>
+        <div className='w-full lgl:w-1/2 flex flex-col gap-20'>
         <div className='flex flex-col gap-5'>
             <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
             <h1 className="text-6xl font-bold text-white">
@@ -26,11 +26,11 @@ const LeftBanner = () => {
                 cursorStyle="|"
                 cursorColor="#ff014f" />
             </h2>
-            <p className="text-base font-bodyFont leading-6 tracking-wide">
+            <p className="text-base font-bodyFont xl:flex-row leading-6 gap-6 xl:gap-0 tracking-wide">
                 I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interation. I'm not adding motion just to spruce things up, but doing it in ways that.
             </p>
         </div>
-        <div className='flex justify-between'>
+        <div className='flex flex-col lgl:flex-row justify-between'>
         <div>
                 <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
