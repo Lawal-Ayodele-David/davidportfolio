@@ -9,7 +9,7 @@ const Features = () => {
     return (
         <section id="features" className="w-full py-20 border-b-[1px] border-b-black">
             <Title title="features" des="What I do"/>
-           <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20'>
+           <div className='grid grid-cols-1 md:grid-cols-1 xl:grid-cols-1 gap-6 xl:gap-20'> {/* md:grid-cols-2 xl:grid-cols-3*/} 
             {/* <Card 
             title='Business Strategy'
             des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta hic consequuntur eum repellendus ad.'

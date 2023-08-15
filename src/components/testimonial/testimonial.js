@@ -107,7 +107,7 @@ const Testimonial = () => {
                             <div className='flex flex-col lgl:justify-between lgl:items-center py-6 border-b-2 border-b-gray-900'>
                                 <div>
                                     <h3 className='text-xl lgl:text-2xl font-medium tracking-wide'>
-                                        Web App Design
+                                        Web App Design.
                                     </h3>
                                     <p className='text-base text-gray-400 mt-3'>
                                          sep., - dec., 2021 

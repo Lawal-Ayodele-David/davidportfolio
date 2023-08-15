@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/title'
-import {projectOne, projectTwo, projectThree } from "../../assets/index"
+import {projectOne, projectThree } from "../../assets/index"
 import ProjectsCard from './projectsCard';
 
 
@@ -13,7 +13,7 @@ const Projects = () => {
                 des="My Projects"
             />
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap:6 xl:gap-14">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap:6 xl:gap-14"> {/*md:grid-cols-3 xl:grid-cols-3 */}
                 <ProjectsCard
                 title="HONEYWELL CLONE"
                 des="It's a Honey-well website clone. You can check it out on my github"
