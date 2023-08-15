@@ -16,12 +16,12 @@ const Projects = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap:6 xl:gap-14"> {/*md:grid-cols-3 xl:grid-cols-3 */}
                 <ProjectsCard
                 title="HONEYWELL CLONE"
-                des="It's a Honey-well website clone. You can check it out on my github"
+                des="It's a Honey-well website clone. You can check it out on my github page by clicking the github icon"
                 src={projectThree}
                 />
                 <ProjectsCard 
                 title="E-commerce Website"
-                des="Built an E-commerce website which you can find on my github page"
+                des="Built an E-commerce website which you can find on my github page by clicking the github icon"
                 src={projectOne}/>
                 {/* <ProjectsCard 
                 title="Chatting App"

@@ -14,7 +14,14 @@ const ProjectsCard = ({ title, des, src}) => {
                 <h3 className="text-base uppercase text-designColor font-normal">{title}</h3>
                 <div className="flex gap-2">
                     <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray hover:text-designColor duration-cursor-pointer">
-                        <BsGithub />
+                    <a
+              href="https://github.com/Lawal-Ayodele-David"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+            >
+              <BsGithub />
+            </a>
                     </span>
                     <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray hover:text-designColor duration-cursor-pointer">
                         <FaGlobe />
