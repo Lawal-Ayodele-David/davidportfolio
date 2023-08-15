@@ -1,12 +1,12 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ["Professional Coder.", "Front End web-Developer.", "UI Designer.", "Mouth Trumpeter.", "Music Minister."],
+        words: ["Mouth Trumpeter.", "Music Minister.", "Frontend Engineer"],
         Loop: true,
         typeSpeed: 20, 
         deleteSpeed: 10,
@@ -18,7 +18,7 @@ const LeftBanner = () => {
             <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
             <h1 className="text-6xl font-bold text-white">
                 Hi, I'm {" "}
-                <span className="text-designColor capitalize">David Lawal</span>
+                <span className="text-designColor capitalize">Ayodele Lawal</span>
             </h1>
             <h2 className="text-4xl font-bold text-white">a <span>{text}</span>
             <Cursor 
@@ -27,7 +27,7 @@ const LeftBanner = () => {
                 cursorColor="#ff014f" />
             </h2>
             <p className="text-base font-bodyFont xl:flex-row leading-6 gap-6 xl:gap-0 tracking-wide">
-                I studied Computer Engineering Technology, and specify on the Software Engineering field. I aim to contribute positively to the attainment of the best result in an organization that is innovative and responsible to the dynamic world of Information, Engineering and Technology, thereby adding value to my employer and deriving job satisfaction.
+                I studied Computer Engineering Technology, and specify on the Software Engineering field. To contribute positively to the attainment of the best results in an innovative and technology-driven organization, while adding value to my employer and continuously developing my skills in frontend engineering. 
             </p>
         </div>
         <div className='flex flex-col lgl:flex-row justify-between'>
@@ -60,9 +60,6 @@ const LeftBanner = () => {
                 </span>
                 <span className="bannerIcon">
                     <SiTailwindcss />
-                </span>
-                <span className="bannerIcon">
-                    <SiFigma />
                 </span>
             </div>
         </div>

@@ -11,11 +11,11 @@ const ContactLeft = () => {
          alt="contactImg"
          />
          <div className='flex flex-col gap-4'>
-        <h3 className='text-3xl font-bold text-white'>David Lawal</h3>
+        <h3 className='text-3xl font-bold text-white'>Ayodele Lawal</h3>
         <p className='text-lg font-normal text-gray-400'>
-        Front End Web Developer    
+        Frontend Engineer    
         </p>
-        <p className='text-base text-gray-400 tracking-wiide'>Lorem ipsum, dolor sit amet conosectetur adipisicing elit. Facillis ipsam autem.</p>
+        <p className='text-base text-gray-400 tracking-wiide'>You can contact me on either my phone number or email, for more Informations.</p>
         <p className='text-base text-gray-400 flex items-center gap-2'>
         Phone: <span className='text-lightText'>+2349030213924</span>    
         </p>

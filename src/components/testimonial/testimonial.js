@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft} from "react-icons/hi";
 import Title from '../layouts/title';
-import { testimonialOne, testimonialTwo, quote} from '../../assets';
+import { ope, milton, quote} from '../../assets';
 
 function SampleNextArrow(props) {
     const { onClick } = props;
@@ -90,14 +90,14 @@ const Testimonial = () => {
                 <div className='w-full'>
                     <div className='w-full h-auto flex flex-col lgl:flex-row justify-between'>
                         <div className='w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center'>
-                            <img className='h-72 md:h-32 lgl:h-72 rounded-lg object-cover' src={testimonialOne} alt="testimonialOne" />
+                            <img className='h-72 md:h-32 lgl:h-72 rounded-lg object-cover' src={ope} alt="testimonialOne" />
                             <div className='w-full flex flex-col justify-end'>
                                 <p className='text-xs uppercase text-designColor tracking-wide mb-2'>
-                                    Bound-Trolola
+                                HOMEFORT ENERGY
                                 </p>
-                                <h3 className='text-2xl font-bold'>Jone Duone Joe</h3>
+                                <h3 className='text-2xl font-bold'>Opeyemi Owosho</h3>
                                 <p className='text-base tracking-wide text-gray-500'>
-                                    Operation Officer
+                                CEO/Cofounder
                                 </p>
                             </div>
                         </div>
@@ -107,10 +107,10 @@ const Testimonial = () => {
                             <div className='flex flex-col lgl:justify-between lgl:items-center py-6 border-b-2 border-b-gray-900'>
                                 <div>
                                     <h3 className='text-xl lgl:text-2xl font-medium tracking-wide'>
-                                        Travel Mobile App Design.
+                                        Web App Design.
                                     </h3>
                                     <p className='text-base text-gray-400 mt-3'>
-                                        via Upwork - mar 4, 2015 - Aug 30, 2021 test
+                                         sep., - dec., 2021 
                                     </p>
                                 </div>
                                 <div className='text-yellow-500 flex gap-1'>
@@ -122,7 +122,7 @@ const Testimonial = () => {
                                 </div>
                             </div>
                             <p className='text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6'>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum, eos natus ipsum numquam veniam officia necessitatibus ratione quos debitis.
+                            Working with Ayodele was a delight. His exceptional communication skills and ability to collaborate seamlessly with our design resulted in smooth development cycles and outstanding outcomes.
                             </p>
                             </div>
                         </div>
@@ -132,14 +132,14 @@ const Testimonial = () => {
                 <div className='w-full'>
                     <div className='w-full h-auto flex flex-col lgl:flex-row justify-between'>
                         <div className='w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center'>
-                            <img className='h-72 md:h-32 lgl:h-72 rounded-lg object-cover' src={testimonialTwo} alt="testimonialTwo" />
+                            <img className='h-72 md:h-32 lgl:h-72 rounded-lg object-cover' src={milton} alt="testimonialTwo" />
                             <div className='w-full flex flex-col justify-end'>
                                 <p className='text-xs uppercase text-designColor tracking-wide mb-2'>
-                                    Bound-Trolola
+                                    HOMEFORT ENERGY
                                 </p>
-                                <h3 className='text-2xl font-bold'>Jone Duone Joe</h3>
+                                <h3 className='text-2xl font-bold'>Milton Jesumbo</h3>
                                 <p className='text-base tracking-wide text-gray-500'>
-                                    Operation Officer
+                                    Mobile Lead/Software engineer
                                 </p>
                             </div>
                         </div>
@@ -149,10 +149,10 @@ const Testimonial = () => {
                             <div className='flex flex-col lgl:justify-between lgl:items-center py-6 border-b-2 border-b-gray-900'>
                                 <div>
                                     <h3 className='text-xl lgl:text-2xl font-medium tracking-wide'>
-                                        Travel Mobile App Design.
+                                        Web App Design.
                                     </h3>
                                     <p className='text-base text-gray-400 mt-3'>
-                                        via Upwork - mar 4, 2015 - Aug 30, 2021 test
+                                         mar - Aug 2023
                                     </p>
                                 </div>
                                 <div className='text-yellow-500 flex gap-1'>
@@ -164,24 +164,24 @@ const Testimonial = () => {
                                 </div>
                             </div>
                             <p className='text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6'>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum, eos natus ipsum numquam veniam officia necessitatibus ratione quos debitis.
+                            Ayodele's ability to quickly grasp new technologies and industry trends has been a tremendous asset to our projects. His willingness to embrace new challenges and learn on the fly has consistently led to impressive outcomes.
                             </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 {/* =============== Slide Three =============== */}
-                <div className='w-full'>
+                {/* <div className='w-full'>
                     <div className='w-full h-auto flex flex-col lgl:flex-row justify-between'>
                         <div className='w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center'>
                             <img className='h-72 md:h-32 lgl:h-72 rounded-lg object-cover' src={testimonialTwo} alt="testimonialTwo" />
                             <div className='w-full flex flex-col justify-end'>
                                 <p className='text-xs uppercase text-designColor tracking-wide mb-2'>
-                                    Bound-Trolola
+                                    Mayokun
                                 </p>
-                                <h3 className='text-2xl font-bold'>Jone Duone Joe</h3>
+                                <h3 className='text-2xl font-bold'>Milton Jesunbo</h3>
                                 <p className='text-base tracking-wide text-gray-500'>
-                                    Operation Officer
+                                    Senior Software Engineer
                                 </p>
                             </div>
                         </div>
@@ -211,7 +211,7 @@ const Testimonial = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 </Slider>    
         </div>
          </section>   

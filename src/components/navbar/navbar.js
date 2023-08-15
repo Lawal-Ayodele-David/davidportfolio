@@ -9,8 +9,9 @@ import { navLinksdata } from '../../constants';
 const Navbar = () => {
     const [showMenu, setShowMenu]=useState(false)
     console.log(showMenu)
+
     return (
-        <div className="w-full h-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+        <div className="w-full md:h-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
         <div>
             <img src={logo} alt="logo" className="object-contain h-24 w-47 ..."/>
         </div>
@@ -47,6 +48,9 @@ const Navbar = () => {
             <span onClick={() => setShowMenu(!showMenu)} className='text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer'>
                 <FiMenu />
             </span>
+            <div className='menu-icon' onClick={handleClick}>
+
+            </div>
             {showMenu && (
                 <div className='w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide'>
                    <div className='flex flex-col gap-8 py-2 relative'>

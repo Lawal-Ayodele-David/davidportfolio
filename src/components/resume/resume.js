@@ -14,7 +14,7 @@ const Resume = () => {
         <section  id='resume' className="w-full py-20 border-b-[1px] border-b-black">
             <div className="flex justify-center items-center text-center">
             <Title 
-                title="6+ YEARS OF EXPERIENCE"
+                title="2+ YEARS OF EXPERIENCE"
                 des="My Resume"
             />
             </div>

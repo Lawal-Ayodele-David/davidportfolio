@@ -16,13 +16,15 @@ const Education = () => {
                 title="HND - Computer Engineering Technology"
                 subTitle="Rufus Giwa Polytechnic (April 2019 - April 2020)"
                 result="3.20/4"
-                des="The training provided by higher institution in order to prepare people to work in various sectors of the economy or areas of culture."
+                des="Achieved Upper Credit honors in Computer Engineering Technology, showcasing academic excellence.
+                "
             />
             <ResumeCard 
                 title="ND - Computer Engineering Technology"
                 subTitle="Rufus Giwa Polytechnic, Owo, Ondo State. (2019 - 2020)"
                 /*result="" */
-                des="Higher education is tertiary education leading to award of an academic degree."
+                des="Acquired foundational knowledge in computer Engineering Technology establishing a strong technical background.
+                "
             />
             </div>
             </div>

@@ -15,15 +15,15 @@ const Projects = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap:6 xl:gap-14">
                 <ProjectsCard
-                title="SOCIAL MEDIA CLONE"
-                des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatcus harum quidem!"
+                title="HONEYWELL CLONE"
+                des="It's a Honey-well website clone. You can check it out on my github"
                 src={projectThree}
                 />
                 <ProjectsCard 
                 title="E-commerce Website"
-                des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatcus harum quidem!"
+                des="Built an E-commerce website which you can find on my github page"
                 src={projectOne}/>
-                <ProjectsCard 
+                {/* <ProjectsCard 
                 title="Chatting App"
                 des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatcus harum quidem!"
                 src={projectTwo}
@@ -42,7 +42,7 @@ const Projects = () => {
                 title="SOCIAL MEDIA CLONE"
                 des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatcus harum quidem!"
                 src={projectTwo}
-                />
+                /> */}
             </div>
         </section>
     )

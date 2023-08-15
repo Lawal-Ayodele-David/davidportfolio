@@ -8,6 +8,7 @@ import Projects from "./components/projects/projects";
 import Resume from "./components/resume/resume";
 import Testimonial from "./components/testimonial/testimonial";
 import FooterBottom from "./components/footer/footerBottom";
+//import LandingPage from "./components/landingpage/landpage";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       <Contact />
       <Footer />
       <FooterBottom />
+      <div className="w-full h-auto bg-white px-4">
+     {/* <LandingPage /> */}
+      </div>
       </div>
     </div>
   );
