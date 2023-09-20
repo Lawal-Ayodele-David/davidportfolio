@@ -1,12 +1,12 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index";
+import {Dlogo} from "../../assets/index";
 
 const Footer = () => {
     return (
         <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8 flex"> 
             <div className="w-full h-full">
-                <img className="w-20 pb-10 px-2" src={logo} alt="logo" />
+                <img className="w-20 pb-10 px-2" src={Dlogo} alt="logo" />
                 <div className="flex gap-4">
                     <span className="bannerIcon">
                         <FaFacebookF />

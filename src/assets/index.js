@@ -1,4 +1,4 @@
-import logo from "./images/logo.png";
+import Dlogo from "./images/Dlogo.png";
 import bannerImg from "./images/bannerImg.jpeg";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
@@ -12,7 +12,7 @@ import thegrid from "./images/thegrid.gif";
 import davidlawal from "./images/davidlawal.png";
 
 export {
-    logo,
+    Dlogo,
     bannerImg,
     projectOne,
     projectTwo,
