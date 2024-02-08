@@ -102,8 +102,8 @@ const emailValidation = () => {
          onChange={(e)=>setMessage(e.target.value)} value={message}
          className={`${
             errMsg === "Please give your Subject!" && "outline-designColor"
-         } contactTextArena`}
-         cols="30" rows="8"></textarea>
+         } contactTextArena text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white`}
+         cols="30" rows="8"  placeholder="Write your thoughts here..."></textarea>
         </div>
         <div className='w-full'>
             <button onClick={handleSend} className='w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent'>Send Message</button>
