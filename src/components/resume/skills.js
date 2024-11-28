@@ -34,30 +34,6 @@ const Skills = () => {
                 </motion.span>
             </span>
         </div>
-        {/* <div className='overflow-x-hidden'>
-            <p className="text-sm uppercase font-medium">Adobe XD</p>
-            <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
-                <motion.span initial={{ x: "-100%", opacity: 0 }} animate={{ x: 0, opacity: 1}} transition={{ duration: 0.5, delay: 0.5 }} className="w-[70%] h-full bg-gradient-to-r from-blue-600 via-pink-5 to-red-500 rounded-md relative">
-                    <span className="absolute -top-7 right-0">70%</span>
-                </motion.span>
-            </span>
-        </div>
-        <div className='overflow-x-hidden'>
-            <p className="text-sm uppercase font-medium">Adobe Illustrator</p>
-            <motion.span initial={{ x: "-100%", opacity: 0 }} animate={{ x: 0, opacity: 1}} transition={{ duration: 0.5, delay: 0.5 }} className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
-                <span className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-5 to-red-500 rounded-md relative">
-                    <span className="absolute -top-7 right-0">100%</span>
-                </span>
-            </motion.span>
-        </div>
-        <div className='overflow-x-hidden'>
-            <p className="text-sm uppercase font-medium">DESIGN</p>
-            <motion.span initial={{ x: "-100%", opacity: 0 }} animate={{ x: 0, opacity: 1}} transition={{ duration: 0.5, delay: 0.5 }} className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
-                <span className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-5 to-red-500 rounded-md relative">
-                    <span className="absolute -top-7 right-0">100%</span>
-                </span>
-            </motion.span>
-        </div> */}
         </div>
         </div>
         <div className="w-full lgl:w-1/2">

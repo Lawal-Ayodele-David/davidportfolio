@@ -47,32 +47,6 @@ const Education = () => {
                 result="(FSLC)"
                 des="Primary education or covers two phases on the International Standard Classification of Education scale."
                 />
-            
-           { /*
-            <ResumeCard 
-                title="ICT Teacher(NYSC)"
-                subTitle="Ika Commercial Secondary School, Akwa Ibom (2022 - April 2023)"
-                result="(NYSC)"
-                des="I taught the pupils the basics of Information Technology and more advanced concept to the senior class. I also taught them how to solve real-life problems with technology."
-            />
-            <ResumeCard 
-                title="Front End Web Developer"
-                subTitle="Homefort Energy, Yaba, Lagos State. (2021)"
-                result="(ReactJs)"
-                des="I created React web app, and also made the existing website responsive."
-            />
-                <ResumeCard 
-                title="Human Resource Assisting Personnel (Industrial Training)"
-                subTitle="First Pension Custodian Nigeria, Ikoyi, Lagos. (2018 -2019)"
-                result="(IT)"
-                des="I worked with the company's Human Resource Manager(HRM) as an assisting personel."
-                />
-                <ResumeCard
-                title="System Engineering(SIWES)"
-                subTitle="Emzor Pharmaceutical Industries, Oshodi, Lagos (2017)"
-                result="(SIWES)"
-                des="It was a 4 months Student Industrial Work Experience Scheme, which i passed through."
-                /> */}
             </div>
             </div>
             </motion.div>

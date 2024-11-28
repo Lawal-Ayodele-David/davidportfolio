@@ -33,16 +33,7 @@ const Projects = () => {
                 des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatcus harum quidem!"
                 src={projectThree}
                 />
-                <ProjectsCard 
-                title="SOCIAL MEDIA CLONE"
-                des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatcus harum quidem!"
-                src={projectOne}
-                />
-                <ProjectsCard 
-                title="SOCIAL MEDIA CLONE"
-                des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatcus harum quidem!"
-                src={projectTwo}
-                /> */}
+                */}
             </div>
         </section>
     )
