@@ -9,7 +9,6 @@ import quote from "./images/testimonial/image-quote.png";
 import contactImg from "./images/contact/contact.jpg";
 import contleft from "./images/contleft.jpg";
 import thegrid from "./images/thegrid.gif";
-import davidlawal from "./images/davidlawal.png";
 
 export {
     Dlogo,
@@ -23,5 +22,4 @@ export {
     contactImg,
     contleft,
     thegrid,
-    davidlawal,
 };

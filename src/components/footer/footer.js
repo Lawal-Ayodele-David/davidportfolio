@@ -24,11 +24,11 @@ const Footer = () => {
                 Quick Link
                 </h3>
             <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
-                <a href="#" target="_blank">
+                
                 <li>
                     <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">About<span className="absolute h-[1px] w-full inline-flex bg-designColor -bottom-0 -translate-x-[100%] left-0 group-hover:translate-x-0 transition-transform duration-300"></span></span>
                 </li>
-                </a>
+                
                 <li><span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">Portfolio<span className="absolute h-[1px] w-full inline-flex bg-designColor -bottom-0 -translate-x-[100%] left-0 group-hover:translate-x-0 transition-transform duration-300"></span></span></li>
                 <li><span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">Services<span className="absolute h-[1px] w-full inline-flex bg-designColor -bottom-0 -translate-x-[100%] left-0 group-hover:translate-x-0 transition-transform duration-300"></span></span></li>
                 <li><span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">Blog<span className="absolute h-[1px] w-full inline-flex bg-designColor -bottom-0 -translate-x-[100%] left-0 group-hover:translate-x-0 transition-transform duration-300"></span></span></li>

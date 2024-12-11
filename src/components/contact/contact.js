@@ -21,7 +21,7 @@ const emailValidation = () => {
 };
  // =========== Email Validation ends here ===========
 
-    const handleSend=(e)=>{
+    const handleSend = async (e) => {
         e.preventDefault()
         if (username === "") {
             setErrMsg("Username is required!");
@@ -36,14 +36,39 @@ const emailValidation = () => {
         } else if (subject === ""){
             setErrMsg("Please give your Subject");
         } else {
-            setSuccessMsg(`Thank you, dear ${username}, Your Messages has been sent Successfully!`);
-            setErrMsg("");
-            setUsername("");
-            setPhoneNumber("");
-            setEmail("");
-            setSubject("");
-            setMessage("");
-            console.log(username, phoneNumber, email,message, subject);
+            setErrMsg(""); // Clear any previous error messages
+
+            const values = {
+                username,
+                phoneNumber,
+                email,
+                subject,
+                message,
+            };
+
+            try {
+                const response = await fetch('https://formspree.io/f/xldevkan', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(values),
+                });
+
+                if (response.ok) {
+                    setSuccessMsg(`Thank you, dear ${username}, your message has been sent successfully!`);
+                    // Reset form fields
+                    setUsername("");
+                    setPhoneNumber("");
+                    setEmail("");
+                    setSubject("");
+                    setMessage("");
+                } else {
+                    setErrMsg("There was an error sending your message. Please try again.");
+                }
+            } catch (error) {
+                setErrMsg("There was an error sending your message. Please try again.");
+            }
         }
     };
 
