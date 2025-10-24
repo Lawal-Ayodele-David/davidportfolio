@@ -126,8 +126,8 @@ const emailValidation = () => {
          <textarea
          onChange={(e)=>setMessage(e.target.value)} value={message}
          className={`${
-            errMsg === "Please give your Subject!" && "outline-designColor"
-         } contactTextArena text-sm bg-gray-900 text-gray-400 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white p-10`}
+            errMsg === "Message is required!" && "outline-designColor"
+         } contactTextArea`}
          cols="30" rows="8"  placeholder="Write your thoughts here..."></textarea>
         </div>
         <div className='w-full'>

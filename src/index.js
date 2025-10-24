@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import "slick-carousel/slick/slick.css";
 import './index.css';
 import App from './App';
+import { Buffer } from 'buffer';
+window.Buffer = Buffer;
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/title'
-import {projectOne, projectThree } from "../../assets/index"
+import {projectOne, projectTwo, projectThree } from "../../assets/index"
 import ProjectsCard from './projectsCard';
 
 
@@ -13,27 +13,25 @@ const Projects = () => {
                 des="My Projects"
             />
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap:6 xl:gap-14"> {/*md:grid-cols-3 xl:grid-cols-3 */}
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
                 <ProjectsCard
                 title="HONEYWELL CLONE"
-                des="It's a Honey-well website clone. You can check it out on my github page by clicking the github icon"
+                des="A fully responsive clone of the Honeywell website featuring modern design, smooth animations, and mobile-first approach. Built with React.js and Tailwind CSS."
                 src={projectThree}
+                technologies={["React.js", "Tailwind CSS", "JavaScript", "Responsive Design"]}
                 />
                 <ProjectsCard 
                 title="E-commerce Website"
-                des="Built an E-commerce website which you can find on my github page by clicking the github icon"
-                src={projectOne}/>
-                {/* <ProjectsCard 
-                title="Chatting App"
-                des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatcus harum quidem!"
-                src={projectTwo}
+                des="Complete e-commerce platform with product catalog, shopping cart, user authentication, and payment integration. Features include product filtering, search functionality, and admin dashboard."
+                src={projectOne}
+                technologies={["React.js", "Node.js", "MongoDB", "Express.js", "Stripe API"]}
                 />
                 <ProjectsCard 
-                title="SOCIAL MEDIA CLONE"
-                des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatcus harum quidem!"
-                src={projectThree}
+                title="Portfolio Website"
+                des="Modern, responsive portfolio website built with React and Tailwind CSS. Features smooth animations, contact form integration, and mobile-first design approach."
+                src={projectTwo}
+                technologies={["React.js", "Tailwind CSS", "JavaScript", "Formspree", "Responsive Design"]}
                 />
-                */}
             </div>
         </section>
     )

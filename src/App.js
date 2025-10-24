@@ -7,27 +7,37 @@ import Navbar from "./components/navbar/navbar";
 import Projects from "./components/projects/projects";
 import Resume from "./components/resume/resume";
 import Testimonial from "./components/testimonial/testimonial";
-import FooterBottom from "./components/footer/footerBottom";
+import FAQ from "./components/faq/faq";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import BlogHome from './components/blog/BlogHome';
+import BlogPost from './components/blog/BlogPost';
 //import LandingPage from "./components/landingpage/landpage";
 
 function App() {
   return (
-    <div className="w-full h-auto bg-bodyColor text-lightText px-4">
-       <Navbar />
-      <div className="max-w-screen-x1 mx-auto">
-      <Banner />
-      <Features />
-      <Projects />
-      <Resume />
-      <Testimonial />
-      <Contact />
-      <Footer />
-      <FooterBottom />
-      <div className="w-full h-auto bg-white px-4">
-     {/* <LandingPage /> */}
+    <Router>
+      <div className="w-full h-auto bg-bodyColor text-lightText px-4 md:px-8 lg:px-12">
+        <Navbar />
+        <div className="max-w-screen-xl mx-auto">
+          <Routes>
+            <Route path="/" element={
+              <>
+                <Banner />
+                <Features />
+                <Projects />
+                <Resume />
+                <Testimonial />
+                <FAQ />
+                <Contact />
+              </>
+            } />
+            <Route path="/blog" element={<BlogHome />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
+          </Routes>
+          <Footer />
+        </div>
       </div>
-      </div>
-    </div>
+    </Router>
   );
 }
 
